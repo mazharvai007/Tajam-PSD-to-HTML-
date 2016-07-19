@@ -1,0 +1,196 @@
+/* 17" - 19" screen */
+@media screen and (min-width: 1024px){
+}
+
+/* 21" screen */
+@media screen and (min-width: 1280px){
+}
+
+/* 21" Maximized / Dual Monitors */
+@media screen and (min-width: 1600px){
+}
+
+/* Dual Monitors, full screen */
+@media screen and (min-width: 2700px){
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px){
+    .expt-art {
+        height: 200px;
+    }
+    .expertise-box:nth-child(1) {
+        border-bottom: 1px solid #ddd;
+    }
+    .expertise-box:nth-child(3) {
+        border-bottom: 1px solid #ddd;
+        border-right: 0px solid #ddd;
+    }
+    .expertise-box:nth-child(2) {
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    } 
+    .expertise-box:nth-child(5) {
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-top: 0px solid #ddd;
+    }
+    .expertise-box:nth-child(6) {
+        border-top: 0px solid #ddd;
+    }
+    .subscribe form input[type="text"] {
+        width: 70%;
+    }
+    .subscribe form button[type="submit"] {
+        padding-left: 27px;
+        padding-right: 27px;
+    }    
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-nav > li > a {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .expertise-box:nth-child(1) {
+        border-bottom: 1px solid #ddd;
+    }
+    .expertise-box:nth-child(3) {
+        border-bottom: 0px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+    .expertise-box:nth-child(2) {
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 0px solid #ddd;
+    } 
+    .expertise-box:nth-child(5) {
+        border-right: 1px solid #ddd;
+        border-left: 0px solid #ddd;
+        border-top: 1px solid #ddd;
+    }
+    .expertise-box:nth-child(6) {
+        border-top: 1px solid #ddd;
+    }
+    .grid-item, .grid-sizer {
+        width: 50%;
+    }
+    .bottom-area .col-md-6, .single-footer {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }    
+}
+
+/* xs */
+@media (max-width: 767px){
+    .logo {
+        float: left;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #ddd;
+    }
+    .main_menu {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-top: 0;
+        box-shadow: none;
+    }
+    .mobile-nav button {
+        margin: 0;
+        padding-top: 35px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    ul.nav li {
+        float: left;
+        width: 100%;
+    }
+    ul.nav li a {
+        border-bottom: 1px solid #444;
+        padding-left: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .slider {
+        padding-bottom: 100px;
+        padding-top: 30px;
+    }
+    .owl-controls {
+        bottom: 30px;
+        right: 40%;
+    }
+    .about_image {
+        top: 0;
+    }
+    .about {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .expertise-box:nth-child(1) {
+        border-bottom: 0px solid #ddd;
+    }
+    .expertise-box:nth-child(3) {
+        border-bottom: 0px solid #ddd;
+    }
+    .expertise-box:nth-child(2) {
+        border-bottom: 0px solid #ddd;
+        border-left: 0px solid #ddd;
+        border-right: 0px solid #ddd;
+    }
+    .team-header h2 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    .single_team .image-block {
+        height: 100%;
+    }
+    .grid-item, .grid-sizer {
+        width: 100%;
+    }
+    .bottom-area .col-md-6, .single-footer {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .subscribe form input[type="text"] {
+        width: 70%;
+    }
+    .subscribe form button[type="submit"] {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .foo-menu ul li a {
+        padding-right: 10px;
+        line-height: 26px;
+    }
+    .copyright {
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {}
+
+@media screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {}
+
+@media screen and (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {
+    .grid-item, .grid-sizer {
+        width: 100%;
+        height: 500px;
+    }
+    .subscribe form input[type="text"] {
+        width: 80%;
+    }
+    .subscribe form button[type="submit"] {
+        padding-left: 28px;
+        padding-right: 28px;
+    }    
+}
+
+@media (min-width: 375px) {}
